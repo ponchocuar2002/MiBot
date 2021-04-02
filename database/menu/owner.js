@@ -2,14 +2,31 @@ const owner = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
+╽
+┠≽ *${prefix}info* (error)
+┃ *Desc* : Mostrar detalles del bot
+┠──────────────╼
+┠≽ *${prefix}blocklist*
+┃ *Desc* : Mostrar usuario bloqueado
+┠──────────────╼
+┠≽ *${prefix}chatlist* (error)
+┃ *Desc* : Mostrar todos los usuarios de chat
+┠──────────────╼
+┠≽ *${prefix}ping*
+┃ *Desc* : Mostrar la velocidad del bot de conexión
+┠──────────────╼
+┠≽ *${prefix}bugreport* <text>
+┃ *Desc* : Informar de un error al propietario del bot
+╿
+┷┯*〈 ABOUT 〉*
 ╽
 ┠≽ *${prefix}info* (error)
 ┃ *Desc* : Show Bot Details
@@ -26,26 +43,26 @@ const owner = (prefix, botName, ownerName) => {
 ┠≽ *${prefix}bugreport* <text>
 ┃ *Desc* : Report Bug To Owner Bot
 ╿
-┷┯ *〈 OWNER 〉*
+┷┯ *〈 𝑀𝐸𝑁𝑈 𝐷𝐸𝐿 𝐶𝑅𝐸𝐴𝐷𝑂𝑅 〉*
    ╽
    ┠≽ *${prefix}setprefix* <text/optional>
-   ┃ *Desc* : Replace Prefix
+   ┃ *Desc* : Reemplazar prefijo
    ┠──────────────╼
    ┠≽ *${prefix}block* <@tag>
-   ┃ *Desc* : Block User
+   ┃ *Desc* : Bloquear usuario
    ┠──────────────╼
    ┠≽ *${prefix}unblock* <@tag>
-   ┃ *Desc* : Unblock User
+   ┃ *Desc* : Desbloquear usuario
    ┠──────────────╼
    ┠≽ *${prefix}bc* <text>
-   ┃ *Desc* : Broadcast to All Contact & Group
+   ┃ *Desc* : Transmitir a todos los contactos y grupos
    ┠──────────────╼
    ┠≽ *${prefix}clone* <@tag>
-   ┃ *Desc* : Clone Profile From Other Members
+   ┃ *Desc* : Clonar perfil de otros miembros
    ┠──────────────╼
    ┠≽ *${prefix}clearall
-   ┃ *Desc* : Clear All Chat
+   ┃ *Desc* : Borrar todo el chat
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Creador © ${botName}`
 }
 exports.owner = owner

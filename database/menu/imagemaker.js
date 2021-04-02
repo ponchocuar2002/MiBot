@@ -2,86 +2,86 @@ const imagemaker = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalles del bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuario bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos los usuarios de chat
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar la velocidad del bot de conexión
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Informar de un error al propietario del bot
 ╿
-┷┯ *〈 IMAGE MAKER 〉*
+┷┯ *〈 𝐼𝑀𝐴𝐺𝐸𝑁 𝐶𝑅𝐸𝐴𝐷𝑂𝑅 〉*
    ╽
    ┠≽ *${prefix}bpink* <text>
-   ┃ *Desc* : Make BlackPink Image
+   ┃ *Desc* : Hacer una imagen BlackPink
    ┠──────────────╼
    ┠≽ *${prefix}snowwrite* <text|text>
-   ┃ *Desc* : Make Snowwrite Image
+   ┃ *Desc* : Hacer imagen de Snowwrite
    ┠──────────────╼
    ┠≽ *${prefix}3dtext* <text>
-   ┃ *Desc* : Make 3D Text Image
+   ┃ *Desc* : Hacer imagen de texto 3D
    ┠──────────────╼
    ┠≽ *${prefix}firetext* <text>
-   ┃ *Desc* : Make Fire Text Image
+   ┃ *Desc* : Hacer imagen de texto de fuego
    ┠──────────────╼
    ┠≽ *${prefix}glitch* <text|text>
-   ┃ *Desc* : Make Glitch Image
+   ┃ *Desc* : Hacer una imagen de falla
    ┠──────────────╼
    ┠≽ *${prefix}shadow* <text>
-   ┃ *Desc* : Make Shadow Image
+   ┃ *Desc* : Hacer imagen de sombra
    ┠──────────────╼
    ┠≽ *${prefix}burnpaper* <text>
-   ┃ *Desc* : Make Burn Papper Image
+   ┃ *Desc* : Hacer quemar imagen de papel
    ┠──────────────╼
    ┠≽ *${prefix}coffee* <text>
-   ┃ *Desc* : Make Coffee Image
+   ┃ *Desc* : Hacer una imagen de café
    ┠──────────────╼
    ┠≽ *${prefix}lovepaper* <text>
-   ┃ *Desc* : Make Love Papper Image
+   ┃ *Desc* : Imagen de Make Love Papper
    ┠──────────────╼
    ┠≽ *${prefix}woodblock* <text>
-   ┃ *Desc* : Make Wood Block Image
+   ┃ *Desc* : Hacer imagen de bloque de madera
    ┠──────────────╼
    ┠≽ *${prefix}qowheart* <text>
-   ┃ *Desc* : Make Quotes On Wood Hearts Image
+   ┃ *Desc* : Hacer cotizaciones en la imagen de corazones de madera
    ┠──────────────╼
    ┠≽ *${prefix}mutgrass* <text>
-   ┃ *Desc* : Make Message Under The Grass Image
+   ┃ *Desc* : Hacer un mensaje debajo de la imagen de la hierba
    ┠──────────────╼
    ┠≽ *${prefix}undergocean* <text>
-   ┃ *Desc* : Make Message Underground Ocean Image
+   ┃ *Desc* : Crear mensaje Imagen de océano subterráneo
    ┠──────────────╼
    ┠≽ *${prefix}woodenboards* <text>
-   ┃ *Desc* : Make Wooden Boards Image
+   ┃ *Desc* : Hacer una imagen de tablas de madera
    ┠──────────────╼
    ┠≽ *${prefix}wolfmetal* <text>
-   ┃ *Desc* : Make Wolf Metal Image
+   ┃ *Desc* : Hacer una imagen de metal de lobo
    ┠──────────────╼
    ┠≽ *${prefix}metalictglow* <text>
-   ┃ *Desc* : Make Metalic Text Glow Image
+   ┃ *Desc* : Hacer que el texto metálico brille en la imagen
    ┠──────────────╼
    ┠≽ *${prefix}8bit* <text|text>
-   ┃ *Desc* : Make 8 Bit Image
+   ┃ *Desc* : Hacer una imagen de 8 bits
    ┠──────────────╼
    ┠≽ *${prefix}herrypotter* <text>
-   ┃ *Desc* : Make Herry Potter Image
+   ┃ *Desc* : Hacer una imagen de Harry Potter
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Creador © ${botName}`
 }
 exports.imagemaker = imagemaker

@@ -2,42 +2,42 @@ const limit = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalles del bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuario bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos los usuarios de chat
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar la velocidad del bot de conexión
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Informar de un error al propietario del bot
 ╿
-┷┯ *〈 LIMIT 〉*
+┷┯〈 𝐿𝐼𝑀𝐼𝑇𝐸 〉*
    ╽
    ┠≽ *${prefix}limit*
-   ┃ *Desc* : Check Your Limit
+   ┃ *Desc* : Comprueba tu límite
    ┠──────────────╼
    ┠≽ *${prefix}bal*
-   ┃ Check Your Money
+   ┃ Check Tu dinero
    ┠──────────────╼
    ┠≽ *${prefix}buylimit* <count>
-   ┃ *Desc* : Buy Limit
+   ┃ *Desc* : Compra al limite
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}
+   ╰╼≽ *Creador © ${botName}
 --------------------------------
 Note: Kamu bisa membeli limit dengan cara mengumpulkan uang terlebih dahulu. Cek uang kamu dengan cara mengetikan perintah *${prefix}bal* , harga 1 limit = 1000 uang.
 Note2: Kamu bisa mengumpulkan uang dengan cara chat dengan teman segroup atau bisa dengan naik level.`

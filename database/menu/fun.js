@@ -2,47 +2,47 @@ const fun = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalles del bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuario bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos los usuarios de chat
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar la velocidad del bot de conexión
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Informar de un error al propietario del bot
 ╿
-┷┯ *〈 FUN 〉*
+┷┯*〈 𝐷𝐼𝑉𝐸𝑅𝑆𝐼𝑂𝑁 〉*
    ╽
    ┠≽ *${prefix}alay* <text>
-   ┃ *Desc* : Changing Words Into Alay
+   ┃ *Desc* : Cambiando palabras en alay
    ┠──────────────╼
    ┠≽ *${prefix}bucin*
-   ┃ *Desc* : Send a Random Slave of Love
+   ┃ *Desc* : Envía un esclavo de amor al azar
    ┠──────────────╼
    ┠≽ *${prefix}trust*
-   ┃ *Desc* : Send a Random Truth
+   ┃ *Desc* : Envía una verdad aleatoria
    ┠──────────────╼
    ┠≽ *${prefix}dare*
-   ┃ *Desc* : Send a Random Dare
+   ┃ *Desc* : Envía un desafío aleatorio
    ┠──────────────╼
    ┠≽ *${prefix}simi* <text>
-   ┃ *Desc* : Talk to Simi
+   ┃ *Desc* : Habla con Simi
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Creador © ${botName}`
 }
 exports.fun = fun

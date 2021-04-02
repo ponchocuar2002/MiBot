@@ -2,92 +2,92 @@ const group = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalles del bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuario bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos los usuarios de chat
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar la velocidad del bot de conexión
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Informar de un error al propietario del bot
 ╿
-┷┯ *〈 GROUP 〉*
+┷┯*〈 𝐸𝑋𝐶𝐿𝑈𝑆𝐼𝑉𝑂𝑆 𝐷𝐸 𝐺𝑅𝑈𝑃𝑂𝑆 〉*
    ╽
    ┠≽ *${prefix}opengc*
-   ┃ *Desc* : Opening Group
+   ┃ *Desc* : Abrir grupo
    ┠──────────────╼
    ┠≽ *${prefix}closegc*
-   ┃ *Desc* : Closing the Group
+   ┃ *Desc* : Cerrar grupo
    ┠──────────────╼
    ┠≽ *${prefix}promote* <@tag>
-   ┃ *Desc* : Promote People to be Admins Group
+   ┃ *Desc* : Promocionar personas para que sean grupos de administradores
    ┠──────────────╼
    ┠≽ *${prefix}demote* <@tag>
-   ┃ *Desc* : Demote People to be Members Group
+   ┃ *Desc* : Degradar a las personas para que sean miembros del grupo
    ┠──────────────╼
    ┠≽ *${prefix}tagall*
-   ┃ *Desc* : Mention All Members
+   ┃ *Desc* : Mencionar a todos los miembros
    ┠──────────────╼
    ┠≽ *${prefix}tagall2*
-   ┃ *Desc* : Mention All Members
+   ┃ *Desc* : Mencionar a todos los miembros
    ┠──────────────╼
    ┠≽ *${prefix}tagall3*
-   ┃ *Desc* : Mention All Members
+   ┃ *Desc* : Mencionar a todos los miembros
    ┠──────────────╼
    ┠≽ *${prefix}tagall4*
-   ┃ *Desc* : Mention All Members
+   ┃ *Desc* : Mencionar a todos los miembros
    ┠──────────────╼
    ┠≽ *${prefix}tagall5*
-   ┃ *Desc* : Mention All Members
+   ┃ *Desc* : Mencionar a todos los miembros
    ┠──────────────╼
    ┠≽ *${prefix}add* <12542123926>
-   ┃ *Desc* : Add Members
+   ┃ *Desc* : Añadir miembros
    ┠──────────────╼
    ┠≽ *${prefix}kick* <@tag>
-   ┃ *Desc* : Kick Member Group
+   ┃ *Desc* : Expulsar un miembro del grupo 
    ┠──────────────╼
    ┠≽ *${prefix}listadmins*
-   ┃ *Desc* : Show List Group Admins
+   ┃ *Desc* : Mostrar administradores de grupo de lista
    ┠──────────────╼
    ┠≽ *${prefix}linkgroup*
-   ┃ *Desc* : Show Group Link
+   ┃ *Desc* : Mostrar enlace de grupo
    ┠──────────────╼
    ┠≽ *${prefix}leave*
-   ┃ *Desc* : Tell the Bot to Leave the Group
+   ┃ *Desc* : Dile al bot que abandone el grupo
    ┠──────────────╼
    ┠≽ *${prefix}welcome* <1/0>
-   ┃ *Desc* : Activating / Deactivating the Welcome Feature
+   ┃ *Desc* : Activación / desactivación de la función de bienvenida
    ┠──────────────╼
    ┠≽ *${prefix}nsfw* <1/0>
-   ┃ *Desc* : Activating / Deactivating the NSFW Feature
+   ┃ *Desc* : Activación / desactivación de la función NSFW
    ┠──────────────╼
    ┠≽ *${prefix}delete*
-   ┃ *Desc* : Delete Bot Message
+   ┃ *Desc* : Eliminar mensaje de bot
    ┠──────────────╼
    ┠≽ *${prefix}simih* <1/0>
-   ┃ *Desc* : Activating / Deactivating the Simih Feature
+   ┃ *Desc* : Activación / desactivación de la función Simih
    ┠──────────────╼
    ┠≽ *${prefix}tagme*
-   ┃ *Desc* : Mention You
+   ┃ *Desc* : Mencionarte
    ┠──────────────╼
    ┠≽ *${prefix}ownergroup*
-   ┃ *Desc* : Shows who the Group Owner is
+   ┃ *Desc* : Muestra quién es el propietario del grupo.
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Creador © ${botName}`
 }
 exports.group = group

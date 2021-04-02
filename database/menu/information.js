@@ -2,53 +2,53 @@ const information = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalles del bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuario bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos los usuarios de chat
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar la velocidad del bot de conexión
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Informar de un error al propietario del bot
 ╿
-┷┯ *〈 INFORMATION 〉*
+┷┯ *〈 𝐼𝑁𝐹𝑂𝑅𝑀𝐴𝐶𝐼𝑂𝑁 〉*
    ╽
    ┠≽ *${prefix}bahasa*
-   ┃ *Desc* : Submit Language Code
+   ┃ *Desc* : Enviar código de idioma
    ┠──────────────╼
    ┠≽ *${prefix}kodenegara*
-   ┃ *Desc* : Send Country Code
+   ┃ *Desc* : Enviar código de país
    ┠──────────────╼
    ┠≽ *${prefix}kbbi* <question>
-   ┃ *Desc* : Asking KBBI
+   ┃ *Desc* : Preguntando KBBI
    ┠──────────────╼
    ┠≽ *${prefix}fakta*
-   ┃ *Desc* : Send a Random Fact
+   ┃ *Desc* : Enviar un hecho aleatorio
    ┠──────────────╼
    ┠≽ *${prefix}infocuaca* <area>
-   ┃ *Desc* : Send Weather Information
+   ┃ *Desc* : Enviar información meteorológica
    ┠──────────────╼
    ┠≽ *${prefix}infogempa*
-   ┃ *Desc* : Sending Earthquake Information
+   ┃ *Desc* : Envío de información sobre terremotos
    ┠──────────────╼
    ┠≽ *${prefix}covidcountry* <country>
-   ┃ *Desc* : Sending Covid-19 Information
+   ┃ *Desc* : Envío de información de Covid-19
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Creador © ${botName}`
 }
 exports.information = information

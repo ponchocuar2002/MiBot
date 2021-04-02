@@ -2,59 +2,59 @@ const wibu = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalles del bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuario bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos los usuarios de chat
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar la velocidad del bot de conexión
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Informar de un error al propietario del bot
 ╿
-┷┯ *〈 WEEBOO 〉*
+┷┯*〈 𝐼𝑀𝐴𝐺𝐸𝑁𝐸𝑆 〉*
    ╽
    ┠≽ *${prefix}neonime*
-   ┃ *Desc* : Search Neonime
+   ┃ *Desc* : Buscar Neonime
    ┠──────────────╼
    ┠≽ *${prefix}pokemon*
-   ┃ *Desc* : Random Pokemon Image
+   ┃ *Desc* : Imagen de Pokémon al azar
    ┠──────────────╼
    ┠≽ *${prefix}loli*
-   ┃ *Desc* : Random Loli Image
+   ┃ *Desc* : Imagen aleatoria de Loli
    ┠──────────────╼
    ┠≽ *${prefix}waifu*
-   ┃ *Desc* : Random Waifu Image
+   ┃ *Desc* : Imagen aleatoria de Waifu
    ┠──────────────╼
    ┠≽ *${prefix}randomanime*
-   ┃ *Desc* : Random Anime Image
+   ┃ *Desc* : Imagen de anime aleatoria
    ┠──────────────╼
    ┠≽ *${prefix}husbu*
-   ┃ *Desc* : Random Husbu Image
+   ┃ *Desc* : Imagen aleatoria de Husbu
    ┠──────────────╼
    ┠≽ *${prefix}husbu2*
-   ┃ *Desc* : Random Husbu2 Image
+   ┃ *Desc* : Imagen aleatoria de Husbu2
    ┠──────────────╼
    ┠≽ *${prefix}wait*
-   ┃ *Desc* : Send Anime Name & Short Scene
+   ┃ *Desc* : Enviar nombre de anime y escena corta
    ┠──────────────╼
    ┠≽ *${prefix}nekonime*
-   ┃ *Desc* : Random Nekonime Image
+   ┃ *Desc* : Imagen aleatoria de Nekonime
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Creador © ${botName}`
 }
 exports.wibu = wibu

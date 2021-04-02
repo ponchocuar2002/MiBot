@@ -2,44 +2,44 @@ const downloader = (prefix, botName, ownerName) => {
 	return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalles del bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuario bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos los usuarios de chat
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar la velocidad del bot de conexión
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Informar de un error al propietario del bot
 ╿
-┷┯ *〈 DOWNLOADER 〉*
+┷┯*〈 𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆 〉*
    ╽
    ┠≽ *${prefix}pinterest* <query>
-   ┃ *Desc* : Download Image From Pinterest
+   ┃ *Desc* : Descargar imagen de Pinterest
    ┠──────────────╼
    ┠≽ *${prefix}ytmp3* <linkyt>
-   ┃ *Desc* : Download Youtube Video to Mp3
+   ┃ *Desc* : Descargar videos de Youtube a MP3
    ┠──────────────╼
    ┠≽ *${prefix}ytmp4* <linkyt>
-   ┃ *Desc* : Download Youtube Video
+   ┃ *Desc* : Descargar video de Youtube
    ┠──────────────╼
    ┠≽ *${prefix}tiktok* <linktiktok>
-   ┃ *Desc* : Download TikTok Video
+   ┃ *Desc* : Descargar video de TikTok
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Creador © ${botName}`
 }
 exports.downloader = downloader

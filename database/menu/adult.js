@@ -2,41 +2,41 @@ const adult = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Creador* : ${ownerName}
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalles del bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuario bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos los usuarios de chat
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar la velocidad del bot de conexión
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Informar de un error al propietario del bot
 ╿
-┷┯ *〈 18+ 〉*
+┷┯*〈 𝑀𝐸𝑁𝑈 𝐴𝐷𝑈𝐿𝑇𝑂𝑆 18+ 〉*
    ╽
    ┠≽ *${prefix}randomhentai*
-   ┃ *Desc* : Sending Random Hentai Image
+   ┃ *Desc* : Envío de imágenes hentai al azar
    ┠──────────────╼
    ┠≽ *${prefix}nsfwtrap*
-   ┃ *Desc* : Sending Random NSFW Trap Image (nsfw needed)
+   ┃ *Desc* : Envío de una imagen de captura NSFW aleatoria (se necesita nsfw)
    ┠──────────────╼
    ┠≽ *${prefix}nsfwneko*
-   ┃ *Desc* : Sending Random NSFW Neko Image (nsfw needed)
+   ┃ *Desc* : Envío de imagen NSFW Neko aleatoria (se necesita nsfw)
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Creador © ${botName}`
 }
 exports.adult = adult

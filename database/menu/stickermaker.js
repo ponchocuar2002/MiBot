@@ -2,41 +2,41 @@ const stickermaker = (prefix, botName, ownerName) => {
 	return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
-   ┠≽ *Prefixo* : 「  ${prefix}  」
-   ┠≽ *Criador* : ${ownerName}
-   ┠≽ *Versão* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Prefix* : 「  ${prefix}  」
+   ┠≽ *Creator* : ${ownerName}
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 SOBRE 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Descrição* : Mostrar detalhes do bot
+┃ *Desc* : Mostrar detalles del bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Mostrar usuário bloqueado
+┃ *Desc* : Mostrar usuario bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Mostrar todos os usuários de bate-papo
+┃ *Desc* : Mostrar todos los usuarios de chat
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Mostrar velocidade de conexão do bot
+┃ *Desc* : Mostrar la velocidad del bot de conexión
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Reportar bug ao proprietário do bot
+┃ *Desc* : Informar de un error al propietario del bot
 ╿
 ┷┯ *〈 STICKER MAKER 〉*
    ╽
    ┠≽ *${prefix}sticker*
-   ┃ *Desc* : Faça um Sticker com imagem
+   ┃ *Desc* : Hacer una pegatina con imagen
    ┠──────────────╼
    ┠≽ *${prefix}stickergif*
-   ┃ *Desc* : Faça um Sticker animado com Gif/Video
+   ┃ *Desc* : Haz una pegatina animada con Gif / Video
    ┠──────────────╼
    ┠≽ *${prefix}ttp*
-   ┃ *Desc* : Texto para o sticker
+   ┃ *Desc* : Texto para pegatina
    ╿ *${ownerName}*,
-   ╰╼≽ *Desenvolvedor © ${botName}`
+   ╰╼≽ *Creador © ${botName}`
 }
 exports.stickermaker = stickermaker

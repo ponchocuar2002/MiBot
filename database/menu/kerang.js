@@ -2,53 +2,53 @@ const kerang = (prefix, botName, ownerName) => {
 	return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalles del bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuario bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos los usuarios de chat
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar la velocidad del bot de conexión
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Informar de un error al propietario del bot
 ╿
-┷┯ *〈 KERANG AJAIB 〉*
+┷┯ *〈 𝑀𝐴𝐺𝐼𝐴 〉*
    ╽
    ┠≽ *${prefix}apakah* <optional>
-   ┃ *Desc* : Asking Is
+   ┃ *Desc* : Preguntar es
    ┠──────────────╼
    ┠≽ *${prefix}bisakah* <optional>
-   ┃ *Desc* : Ask Can
+   ┃ *Desc* : Preguntar Can
    ┠──────────────╼
    ┠≽ *${prefix}kapankah* <optional>
-   ┃ *Desc* : Ask When
+   ┃ *Desc* : Preguntar cuando
    ┠──────────────╼
    ┠≽ *${prefix}watak*
-   ┃ *Desc* : Transmitting Characters at Random
+   ┃ *Desc* : Transmisión de caracteres aleatoriamente
    ┠──────────────╼
    ┠≽ *${prefix}hobby*
-   ┃ *Desc* : Randomly Sending Hobbies
+   ┃ *Desc* : Envío aleatorio de pasatiempos
    ┠──────────────╼
    ┠≽ *${prefix}gantengcek*
-   ┃ *Desc* : How Handsome
+   ┃ *Desc* : Que guapo
    ┠──────────────╼
    ┠≽ *${prefix}cantikcek*
-   ┃ *Desc* : How Beautiful
+   ┃ *Desc* : Qué hermoso
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Creador © ${botName}`
 }
 exports.kerang = kerang

@@ -2,56 +2,56 @@ const education = (prefix, botName, ownerName) => {
 	return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 4
-   ┠≽ *Canal* : http://bit.ly/mrpato-yt
+   ┠≽ *Version* : 29
+   ┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalles del bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuario bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos los usuarios de chat
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar la velocidad del bot de conexión
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Informar de un error al propietario del bot
 ╿
-┷┯ *〈 EDUCATION 〉*
+┷┯*〈 𝐸𝐷𝑈𝐶𝐴𝐶𝐼𝑂𝑁 〉*
    ╽
    ┠≽ *${prefix}wiki* <query>
-   ┃ *Desc* : Search According to Wikipedia [indo]
+   ┃ *Desc* : Búsqueda según Wikipedia [indo]
    ┠──────────────╼
    ┠≽ *${prefix}wikien* <query>
-   ┃ *Desc* : Search According to Wikipedia [english]
+   ┃ *Desc* : Búsqueda según Wikipedia [inglés]
    ┠──────────────╼
    ┠≽ *${prefix}nulis* <text>
-   ┃ *Desc* : Write a Text on Book
+   ┃ *Desc* : Escribir un texto en un libro
    ┠──────────────╼
    ┠≽ *${prefix}quotes*
-   ┃ *Desc* : Send a Random Quotes
+   ┃ *Desc* : Enviar cotizaciones al azar
    ┠──────────────╼
    ┠≽ *${prefix}quotes2*
-   ┃ *Desc* : Send a Random Quotes2
+   ┃ *Desc* : Enviar cotizaciones aleatorias2
    ┠──────────────╼
    ┠≽ *${prefix}tafsirmimpi* <dream>
-   ┃ *Desc* : Send a Dream Interpretation
+   ┃ *Desc* : Envía una interpretación de los sueños
    ┠──────────────╼
    ┠≽ *${prefix}translate* <language_code>|<text>
-   ┃ *Desc* : Translating a word
+   ┃ *Desc* : Traduciendo una palabra
    ┠──────────────╼
    ┠≽ *${prefix}artinama* <name>
-   ┃ *Desc* : Interpret Names
+   ┃ *Desc* : Interpretar nombres
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Creador © ${botName}`
 }
 exports.education = education
