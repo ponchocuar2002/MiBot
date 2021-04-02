@@ -5,17 +5,17 @@ lolcatjs.options.seed = Math.round(Math.random() * 1000);
 lolcatjs.options.colors = true;
 
 lolcatjs.fromString('[INFO] HI,I AM DUCK')
-lolcatjs.fromString('[SYSTEM] STARTING BOT...')
+lolcatjs.fromString('[SYSTEM] INICIANDO BOT SUSCRÍBETE...')
 console.log('------------------------------------------------')
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
-CFonts.say('PATO V4', {
+CFonts.say('FELIXCRACK V29', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say('\'Bot pato v4\' By Mr Pato', {
+CFonts.say('\'Bot FxMods v29\' By Felixcrack', {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -44,4 +44,4 @@ function start() {
 
 start()
 console.log('------------------------------------------------')
-lolcatjs.fromString('[REB] PATO')
+lolcatjs.fromString('[REB] FX')

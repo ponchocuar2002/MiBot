@@ -330,8 +330,8 @@ async function starts() {
 	await nzwa.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./Nazwa.json', JSON.stringify(nzwa.base64EncodedAuthInfo(), null, '\t'))
 
-        console.log('=> Pato bot v4!')
-        lolcatjs.fromString('[Pato] Hola gracias por usar mi bot, espero te guste ;)')
+        console.log('=> Felixcrack Bot v29!')
+        lolcatjs.fromString('[Felix] Hola gracias por usar mi bot, espero te guste ;)')
 
 	nzwa.on('group-participants-update', async (anu) => {
 		if (!welkom.includes(anu.jid)) return
@@ -399,7 +399,7 @@ async function starts() {
                         const q = args.join(' ')
                         
                         mess = {
-							wait: '⌛ Aguanta.. ⌛',
+							wait: '⌛ Un Momento Por Favor.. ⌛',
 							success: '✔️ Con exito ✔️',
 							levelon: '❬ ✔ ❭ *Nivel habilitado*',
 							leveloff: ' ❬ X ❭  *Nivel deshabilitado*',
@@ -415,7 +415,7 @@ async function starts() {
 								ownerB: '[❗] ¡Este comando solo puede ser utilizado por el creador del bot! ❌',
 								admin: '[❗] ¡Este comando solo puede ser utilizado por administradores del grupo! ❌',
 								Badmin: '[❗] ¡Este comando solo se puede usar cuando el bot es administrador! ❌',
-								daftarB: `──「 NO ESTÁS REGISTRADO 」──\nSuscribete al canal: https://youtube.com/channel/UClsFXRmSwE3JAWAJMhSnwQQ \n Usa el comando: ${prefix}register para registrarte\nEjemplo: ${prefix}register Pato|99`,
+								daftarB: `──「 NO ESTÁS REGISTRADO 」──\nSuscribete al canal: https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA \n Usa el comando: ${prefix}register para registrarte\nEjemplo: ${prefix}register Felixcrack|99`,
                                 }
                         }
 					const apakah = ['Si','Nel']
@@ -439,7 +439,7 @@ async function starts() {
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '994402886887@s.whatsapp.net'
+                        const NomerOwner = '12603763944@s.whatsapp.net'
                         const botLangs = languages
                         const isEventon = isGroup ? event.includes(from) : false
                         const isRegister = checkRegisteredUser(sender)
@@ -750,7 +750,7 @@ async function starts() {
 		        }, 0)
 	        }
 	
-	          if (messagesC.includes("vete a la vrg")){
+	          if (messagesC.includes("vete alv")){
 		      if (!isGroup) return
 		      if (!isAntiRacismo) return
 		      if (isGroupAdmins) return reply('No estan permitidas cosas ofensivas')
@@ -849,7 +849,7 @@ async function starts() {
 		}, 0)
 	}
 	
-	          if (messagesC.includes("black")){
+	          if (messagesC.includes("mierda")){
 		      if (!isGroup) return
 		      if (!isAntiRacismo) return
 		      if (isGroupAdmins) return reply('No estan permitidas cosas ofensivas')
@@ -1047,7 +1047,7 @@ async function starts() {
 		}, 0)
 	}
 	
-	          if (messagesC.includes("🐵")){
+	          if (messagesC.includes("me la pelas")){
 		      if (!isGroup) return
 		      if (!isAntiRacismo) return
 		      if (isGroupAdmins) return reply('No estan permitidas cosas ofensivas')
@@ -1119,7 +1119,7 @@ async function starts() {
                                         return reply("😠")
                                         .then(() => nzwa.groupRemove(from, sender))
                                         .then(() => {
-                                                nzwa.sendMessage(from, `*「 ANTI BADWORD 」*\nTe sacaron por groserias`, text ,{quoted: mek})
+                                                nzwa.sendMessage(from, `*「 ANTI GROSERÍAS 」*\nTe sacaron por groserias`, text ,{quoted: mek})
                                         }).catch(() => nzwa.sendMessage(from, `Te salvaste pq no soy admin si no te sacara!`, text , {quoted : mek}))
                                 } else {
                                         return reply( "Cuidado 😇")
@@ -1393,7 +1393,7 @@ async function starts() {
                 case 'creator':
                 case 'dono':
                   nzwa.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-               nzwa.sendMessage(from, 'Número del creador y dueño, no molestar con tonteras',MessageType.text, { quoted: mek} )
+               nzwa.sendMessage(from, 'Número del creador ⊙﹏⊙ y dueño, no molestar con tonteras',MessageType.text, { quoted: mek} )
                 break
 	case 'hidetag':
                 nzwa.updatePresence(from, Presence.composing) 
@@ -1493,7 +1493,7 @@ async function starts() {
                    await limitAdd(sender)
                    break
 				case 'wiki':
-					if (args.length < 1) return reply('Que quires buscar')
+					if (args.length < 1) return reply('Que quieres buscar')
 					tels = body.slice(6)	
                                         if (!isRegister) return reply(mess.only.daftarB)				
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
@@ -1502,7 +1502,7 @@ async function starts() {
                                         await limitAdd(sender)
 					break	
 				case 'wikien':
-					if (args.length < 1) return reply('Que quires buscar')
+					if (args.length < 1) return reply('Que quieres buscar')
 					tels = body.slice(8)		
 			                if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
@@ -1578,7 +1578,7 @@ async function starts() {
 					break*/
 				case 'nulis':
 				case 'tulis':
-					if (args.length < 1) return reply('Y el texto?')
+					if (args.length < 1) return reply('Uhmm y el texto?')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
 					teks = body.slice(7)
@@ -1615,7 +1615,7 @@ async function starts() {
                 await limitAdd(sender)
                 break
 				case 'blocklist':
-					teks = 'Esta es la lista de numeros bloqueados :\n'
+					teks = 'Esta es la lista de numeros bloqueados por gays :\n'
 					for (let block of blocked) {
 						teks += `~> @${block.split('@')[0]}\n`
 					}
@@ -1624,7 +1624,7 @@ async function starts() {
 					break
                    case 'chatlist':
 					nzwa.updatePresence(from, Presence.composing)  
-					teks = 'Lista ded chats del bot :\n'
+					teks = 'Lista de chats del bot :\n'
 					for (let all of totalchat) {
 						teks += `~> @${all}\n`
 					}
@@ -1789,7 +1789,7 @@ async function starts() {
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += `  Total : ${groupMembers.length}\n`
 					for (let mem of groupMembers) {
-						teks += `℘ąɬơ💥 ${mem.jid.split('@')[0]}\n`
+						teks += `𝑭𝒆𝒍𝒊𝒙💥 ${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					nzwa.sendMessage(from, 'Mencion a todos\®'+teks+'╠➥', text, {quoted: mek})
@@ -1817,7 +1817,7 @@ async function starts() {
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += `  Total : ${groupMembers.length}\n`
 					for (let mem of groupMembers) {
-						teks += `℘ąɬơ 👤 ${mem.jid.split('@')[0]}@c.us\n`
+						teks += `𝑭𝒆𝒍𝒊𝒙 👤 ${mem.jid.split('@')[0]}@c.us\n`
 						members_id.push(mem.jid)
 					}
 					nzwa.sendMessage(from, 'Mencion de todos\®'+teks+'👤', text, {quoted: mek})
@@ -1881,7 +1881,7 @@ async function starts() {
 					case 'bcgc':
 					nzwa.updatePresence(from, Presence.composing) 
 					if (!isOwner) return reply(ind.ownerB())
-					if (args.length < 1) return reply('℘ąɬơ ცơɬ ۷4 anuncio dado')
+					if (args.length < 1) return reply('𝐹𝑒𝑙𝑖𝑥𝑐𝑟𝑎𝑐𝑘: anuncio dado')
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						buff = await nzwa.downloadMediaMessage(encmedia)
@@ -3458,7 +3458,7 @@ async function starts() {
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    nzwa.sendMessage('994402886887@s.whatsapp.net', optionsp, text, {quoted: mek})
+                    nzwa.sendMessage('12603763944@s.whatsapp.net', optionsp, text, {quoted: mek})
                     reply('Se envio al dueño del bot')
                     break
 				default:
