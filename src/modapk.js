@@ -1,10 +1,10 @@
 const modapk = () => { 
 	return `
 	*Mod Apk*
-• 𝑄𝑢𝑖𝑒𝑟𝑒𝑠 𝑏𝑎𝑗𝑎𝑟 𝑎𝑙𝑔𝑜??
+• Quieres bajar algo??
 
 
-👾
+👾 APLICACIONES
 
 • Minecraft (Original)
 https://www.mediafire.com/file/4hixmktsfkhky91/Minecraft_v1.16.101.01_Terbaru.zip/file
@@ -132,7 +132,7 @@ https://realsht.mobi/exXCy
 • Template Solo
 https://realsht.mobi/MvYbm
 
-〽️FONT
+〽️ FUENTES
 
 • Kumpulan Font Untuk Quotes
 https://realsht.mobi/JkmXx
