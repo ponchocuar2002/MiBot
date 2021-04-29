@@ -415,7 +415,7 @@ async function starts() {
 								ownerB: '[❗] ¡Este comando solo puede ser utilizado por el creador del bot! ❌',
 								admin: '[❗] ¡Este comando solo puede ser utilizado por administradores del grupo! ❌',
 								Badmin: '[❗] ¡Este comando solo se puede usar cuando el bot es administrador! ❌',
-								daftarB: `──「 NO ESTÁS REGISTRADO 」──\nSuscribete al canal: https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA \n Usa el comando: ${prefix}register para registrarte\nEjemplo: ${prefix}register Felixcrack|99`,
+								daftarB: `──「 NO ESTÁS REGISTRADO 」──\nAvr activalo morro \n Usa el comando: ${prefix}register para registrarte\nEjemplo: ${prefix}register Ponchocuar|99`,
                                 }
                         }
 					const apakah = ['Si','Nel']
@@ -439,7 +439,7 @@ async function starts() {
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '12603763944@s.whatsapp.net'
+                        const NomerOwner = '525561622094@s.whatsapp.net'
                         const botLangs = languages
                         const isEventon = isGroup ? event.includes(from) : false
                         const isRegister = checkRegisteredUser(sender)
@@ -1789,7 +1789,7 @@ async function starts() {
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += `  Total : ${groupMembers.length}\n`
 					for (let mem of groupMembers) {
-						teks += `𝑭𝒆𝒍𝒊𝒙💥 ${mem.jid.split('@')[0]}\n`
+						teks += `ponchocuar💥 ${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					nzwa.sendMessage(from, 'Mencion a todos\®'+teks+'╠➥', text, {quoted: mek})
@@ -1817,7 +1817,7 @@ async function starts() {
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += `  Total : ${groupMembers.length}\n`
 					for (let mem of groupMembers) {
-						teks += `𝑭𝒆𝒍𝒊𝒙 👤 ${mem.jid.split('@')[0]}@c.us\n`
+						teks += `ponchocuar 👤 ${mem.jid.split('@')[0]}@c.us\n`
 						members_id.push(mem.jid)
 					}
 					nzwa.sendMessage(from, 'Mencion de todos\®'+teks+'👤', text, {quoted: mek})
@@ -1935,7 +1935,7 @@ async function starts() {
 					}, 2000)
                      setTimeout( () => {
 					nzwa.updatePresence(from, Presence.composing) 
-					nzwa.sendMessage(from, 'Adiós jotos', text) // ur cods
+					nzwa.sendMessage(from, 'Adiós', text) // ur cods
 					}, 0)
                      break
 
