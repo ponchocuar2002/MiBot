@@ -17,8 +17,6 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
 ┠≽ *Prefijo* : 「  ${prefix}  」
 ┠≽ *Creador* : ${ownerName}
 ┠≽ *Version* : 4
-┠≽ *Canal* : https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
-╿
 ┷┯ *〈 𝑀𝐸𝑁𝑈 〉*
    ┠≽ *${prefix}logomakermenu* (𝐿𝑜𝑔𝑜 𝑀𝑒𝑛𝑢)
    ┠≽ *${prefix}imagemakermenu* (𝐼𝑚𝑎𝑔𝑒𝑛 𝑀𝑒𝑛𝑢)
@@ -45,11 +43,7 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
    ┠≽ *${prefix}othermenu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝑂𝑡𝑟𝑜𝑠)
    ╿ *${ownerName}*,
    ╰╼≽  © ${botName}
-   *〈 𝐆𝐑𝐔𝐏𝐎𝐒 〉*
-   ┠≽ *Félix bot: https://bit.ly/39tPICH
-   ┠≽ *Mr-Pato 2: https://bit.ly/3wiL04v
-   ┠≽ *Satan bot: https://bit.ly/39v9M7K
-   ╰╼
+   
    
    `
 }
